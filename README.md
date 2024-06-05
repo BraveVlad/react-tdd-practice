@@ -2,12 +2,12 @@
 
 ## Setup react project // 1 SP
 
-[/] Create a react - vite - typescript with vitest environment.
+[x] Create a react - vite - typescript with vitest environment.
 
 ## Create first, test later. // 2 SP
 
-[] create 1 component
-[] add Vitest unittest for this component.
+[x] create 1 component
+[/] add Vitest unittest for this component.
 
 ## Test first, create later. // 2 SP
 
