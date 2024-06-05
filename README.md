@@ -1,5 +1,5 @@
 # REACT VITEST TDD PRACTICE TODOS:
-
+** 1SP = 1 hour.
 ## Setup react project // 1 SP
 
 [/] Create a react - vite - typescript with vitest environment.
