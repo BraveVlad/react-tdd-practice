@@ -1,5 +1,7 @@
 # REACT VITEST TDD PRACTICE TODOS:
 
+### for each desired change, make the change easy (warning: this may be hard), then make the easy change
+
 ## Setup react project // 1 SP
 
 [x] Create a react - vite - typescript with vitest environment.
