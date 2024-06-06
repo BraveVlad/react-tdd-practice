@@ -5,11 +5,9 @@ import Home from "./screens/Home";
 
 function App() {
 	return (
-		<div>
-			<Routes>
-				<Route path="/" Component={Home} />
-			</Routes>
-		</div>
+		<Routes>
+			<Route path="/" Component={Home} />
+		</Routes>
 	);
 }
 
