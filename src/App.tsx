@@ -1,11 +1,20 @@
 import { useState } from "react";
 import "./App.css";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
 	return (
 		<>
 			<h1 data-testid="main-welcome-title">Welcome to React TDD practice!</h1>
 		</>
+	);
+}
+
+function AppContainer() {
+	return (
+		<BrowserRouter>
+			<App />
+		</BrowserRouter>
 	);
 }
 
@@ -23,4 +32,4 @@ function SimpleCounter() {
 		</>
 	);
 }
-export default App;
+export default AppContainer;
