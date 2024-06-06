@@ -47,7 +47,7 @@ describe("App", () => {
 		// EXPECT
 		expect(screen.getByRole("link", { name: "Take me home!" })).toHaveAttribute(
 			"href",
-			"/test"
+			"/"
 		);
 	});
 });
