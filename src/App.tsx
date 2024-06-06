@@ -7,8 +7,8 @@ import NotFound from "./screens/NotFound";
 function App() {
 	return (
 		<Routes>
-			<Route path="/" Component={Home} />
-			<Route path="*" Component={NotFound} />
+			<Route path="/" element={<Home />} />
+			<Route path="*" element={<NotFound />} />
 		</Routes>
 	);
 }
