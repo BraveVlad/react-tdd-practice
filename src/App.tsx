@@ -5,7 +5,6 @@ function App() {
 	return (
 		<>
 			<h1 data-testid="main-welcome-title">Welcome to React TDD practice!</h1>
-			<SimpleCounter />
 		</>
 	);
 }
