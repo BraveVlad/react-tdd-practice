@@ -1,12 +1,15 @@
 import { useState } from "react";
 import "./App.css";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./screens/Home";
 
 function App() {
 	return (
-		<>
-			<h1 data-testid="main-welcome-title">Welcome to React TDD practice!</h1>
-		</>
+		<div>
+			<Routes>
+				<Route path="/" Component={Home} />
+			</Routes>
+		</div>
 	);
 }
 
