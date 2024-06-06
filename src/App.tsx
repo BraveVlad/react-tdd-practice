@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
 	return (
 		<>
-			<h1 data-testid="main-welcome-title">Welcome to React TOD practice!</h1>
+			<h1 data-testid="main-welcome-title">Welcome to React TDD practice!</h1>
 			<SimpleCounter />
 		</>
 	);
