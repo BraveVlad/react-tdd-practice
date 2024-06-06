@@ -11,7 +11,7 @@
 [x] create 1 component
 [x] add Vitest unittest for this component.
 
-## Test first, create later. // 2 SP
+## Test first, create later. // ~2 SP~
 
 [] set up a component stub.
 [] set up unittest for a component
