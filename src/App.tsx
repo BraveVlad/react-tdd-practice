@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./screens/Home";
 import NotFound from "./screens/NotFound";
 
-function App() {
+export function App() {
 	return (
 		<Routes>
 			<Route path="/" element={<Home />} />
@@ -13,14 +13,13 @@ function App() {
 	);
 }
 
-function AppContainer() {
+export function AppContainer() {
 	return (
 		<BrowserRouter>
 			<App />
 		</BrowserRouter>
 	);
 }
-
 function SimpleCounter() {
 	const [count, setCount] = useState(0);
 
@@ -35,4 +34,3 @@ function SimpleCounter() {
 		</>
 	);
 }
-export default AppContainer;
