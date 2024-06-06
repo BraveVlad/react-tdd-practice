@@ -7,7 +7,7 @@
 ## Create first, test later. // 2 SP
 
 [x] create 1 component
-[/] add Vitest unittest for this component.
+[x] add Vitest unittest for this component.
 
 ## Test first, create later. // 2 SP
 
